@@ -1,0 +1,6 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "sice-config",
+  "webDir": "build",
+  "bundledWebRuntime": false
+}

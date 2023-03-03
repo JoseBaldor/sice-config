@@ -1,0 +1,7 @@
+{
+  "name": "sice-config",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
