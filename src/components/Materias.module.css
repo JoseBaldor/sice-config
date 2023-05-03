@@ -1,0 +1,115 @@
+.error{
+  color: #f2317f;
+  margin-bottom: 1rem;
+}
+
+.input_clave{
+    height: 1.6rem;
+    margin-top: .1rem;
+    margin-bottom: .1rem;
+    width: 15%;
+}
+
+.input_description{
+    width: 60%;
+    height: 1.6rem;
+    margin-top: .1rem;
+    margin-bottom: .1rem;
+}
+
+.input_semestre{
+    height: 1.6rem;
+    margin-top: .1rem;
+    margin-bottom: 1rem;
+}
+
+.input_creditos{
+    height: 1.6rem;
+    margin-top: .1rem;
+    margin-bottom: .1rem;
+}
+
+.input_terminal{
+    height: 1.6rem;
+    margin-top: .1rem;
+    margin-bottom: 1rem;
+}
+
+.semestre{
+  height: 1.6rem;
+  margin-top: .1rem;
+  margin-bottom: .1rem;
+}
+
+.eje_formativo{
+    height: 1.6rem;
+    margin-top: .1rem;
+    margin-bottom: 1rem;
+}
+
+.eje_area{
+    height: 1.6rem;
+    margin-top: .1rem;
+    margin-bottom: 1rem;
+}
+
+.input_check{
+    margin-top: .1rem;
+    margin-bottom: .5rem;
+}
+
+.formulario {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-columns: repeat(auto-fill, minmax(40rem,1fr));
+    grid-gap: 0.5rem;
+
+    width: 92%;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+
+    border-radius: 7px;
+    border-color: rgba(223, 220, 220, 0.2);
+    border-width: 4px;
+    border-style:outset; 
+  }
+
+  .formulario label{
+    display: block;
+  }
+
+  .group{
+    width: 60%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .group_ejes{
+    width: 42%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .group_optativa{
+    display: flex;
+  }
+
+
+.submit{
+  width: 60%;
+  display: flex;
+  justify-content:flex-end;
+}
+
+  .button{
+    width: 8rem;
+    height: 2.5rem;
+    background-color: rgb(60, 148, 248);
+    margin-top: 1.5rem;
+  }

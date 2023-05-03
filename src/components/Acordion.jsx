@@ -4,7 +4,7 @@ import { useLocation } from 'react-router-dom';
 
 export const Acordion = () => {
     const location = useLocation();
-
+    console.log(location);
 	return (
         <IonMenu contentId="main" type="overlay">
             <IonContent>

@@ -1,7 +1,7 @@
-import { IonButtons, IonCard, IonContent, IonHeader, IonMenuButton, IonPage, IonTitle, IonToolbar, IonLabel } from '@ionic/react';
-import FormMaterias from '../components/FormMaterias'
+import { IonButtons, IonContent, IonHeader, IonMenuButton, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import FormCarreras from '../components/FormCarreras';
  
-const Materias = () => {
+const Carreras = () => {
 
   return (
     <IonPage>
@@ -10,20 +10,20 @@ const Materias = () => {
           <IonButtons slot="start">
             <IonMenuButton />
           </IonButtons>
-          <IonTitle>Materias</IonTitle>
+          <IonTitle>Carreras</IonTitle>
         </IonToolbar>
       </IonHeader>
 
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Materias</IonTitle>
+            <IonTitle size="large">Carreras</IonTitle>
           </IonToolbar>
         </IonHeader>
-         <FormMaterias/>
+         <FormCarreras/>
       </IonContent>
     </IonPage>
   );
 };
 
-export default Materias;
+export default Carreras;
